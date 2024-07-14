@@ -1,0 +1,13 @@
+<div style="width: 100%; height: 20dvh; background-color: white; display: flex;">
+    <div nz-col [nzXs]="6" [nzSm]="6" [nzMd]="6" [nzLg]="6" [nzXl]="6" [nzXXl]="6" style="height: 100%; display: grid; place-content: center; background-color: white;">
+        <img src="./../../../../../assets/img/Logo50anios.png" style="width: 100%;height: 100%;" alt="">
+    </div>
+    <div nz-col [nzXs]="18" [nzSm]="18" [nzMd]="18" [nzLg]="18" [nzXl]="18" [nzXXl]="18" style="width: 100%;;height: 100%; display: flex;justify-content: flex-end; place-items: center; padding: 0px 40px; background-color: white;">
+        <nz-input-group style="width: 250px; border-radius: 8px;" [nzSuffix]="suffixIconSearch">
+            <input  type="text" nz-input placeholder="Buscar" />
+          </nz-input-group>
+          <ng-template #suffixIconSearch>
+            <span nz-icon nzType="search"></span>
+          </ng-template>
+    </div>
+</div>

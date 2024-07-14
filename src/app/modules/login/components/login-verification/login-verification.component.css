@@ -1,0 +1,6 @@
+.selected {
+    border: 2px solid blue;
+    /* Por ejemplo, cambia el borde cuando está seleccionado */
+    background-color: lightblue;
+    /* Cambia el color de fondo cuando está seleccionado */
+}
