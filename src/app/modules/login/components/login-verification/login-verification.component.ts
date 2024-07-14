@@ -23,6 +23,7 @@ export class LoginVerificationComponent {
         this.router.navigate(["plataform"])
       } else {
         this.userLogin = JSON.parse(storedUser) as User;
+        this.listImages.sort(() => Math.random() - 0.5);
         this.generateRandomQuestions()
       }
     } else {
